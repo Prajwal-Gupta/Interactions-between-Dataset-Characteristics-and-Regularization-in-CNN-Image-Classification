@@ -17,8 +17,8 @@ CelebA is a human face image dataset containing 202,599 images of 10,177 celebri
 ### CNN Architectures
 While not central to our primary hypothesis, the choice of CNN architectures was crucial due to their potential impact on our results. We employed two architectures: ResNet\cite{ResNet} and AlexNet\cite{AlexNet}. ResNet supports deeper network structures with its skip connections, mitigating vanishing gradient issues and reducing overfitting risks. In contrast, AlexNet, chosen for its simpler structure, offered a balance between training efficiency and accuracy maintenance. This architecture facilitated a more efficient training process without significant accuracy losses, optimizing the trade-off between training duration and performance. Additionally, the shallow network design of AlexNet simplified the analysis of training enhancements, contributing to overall efficiency and effectiveness.
 AlexNet is used in 2 configurations for an in-depth exploration: 
-    -The network with all the regularizations accurately that included dropout and Batch Normalization.
-    -The network with a bare-bone CNN inspired by the AlexNet architecture.
+    *The network with all the regularizations accurately that included dropout and Batch Normalization.
+    *The network with a bare-bone CNN inspired by the AlexNet architecture.
 
 ### Regularization Methods
 Our main goal in the selection of regularization methods was to cover all three main categories of regularization (data augmentation, internal structure changes, and label augmentation) as well as to include methods that are currently popular for use in Image classification. By achieving these two goals, we can achieve the most representative and applicable results. The regularization methods we employed are (by category):
