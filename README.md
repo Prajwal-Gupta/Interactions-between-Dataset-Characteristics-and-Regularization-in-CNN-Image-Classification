@@ -28,3 +28,36 @@ Our main goal in the selection of regularization methods was to cover all three 
 
 
 ## Results
+
+We obtained experiment results varying by dataset, CNN, and additional configurations. Broadly there were 4 experimental results run CIFAR-10 Results with ResNet, CelebA Results with ResNet, CIFAR-100 Results with ResNet, CIFAR-10 Results with AlexNet. 
+
+CIFAR-10 Results with ResNet: 
+
+<img width="390" alt="image" src="https://github.com/user-attachments/assets/054baa4e-319e-4e2a-a1dd-d2d85d2f2fe2">
+<img width="399" alt="image" src="https://github.com/user-attachments/assets/16d77515-e379-49c7-84b3-570b381f8341">
+
+CelebA Results with ResNet:
+
+<img width="370" alt="image" src="https://github.com/user-attachments/assets/bf624aa1-e062-4f6e-80a8-2682bca5c4e9">
+<img width="376" alt="image" src="https://github.com/user-attachments/assets/b0462487-fd32-4800-aa63-0379cb03ad7e">
+
+CIFAR-10 Results with ResNet:
+
+<img width="342" alt="image" src="https://github.com/user-attachments/assets/26c31560-f4a3-4af9-bb9f-98ddf974bd20">
+<img width="345" alt="image" src="https://github.com/user-attachments/assets/6a9c72f6-750a-49d5-b373-70bfd82bb394">
+<img width="346" alt="image" src="https://github.com/user-attachments/assets/a232e3b0-5d9e-41cb-9523-3d8d22d65bcb">
+
+
+CIFAR-10 Results with AlexNet: 
+
+<img width="347" alt="image" src="https://github.com/user-attachments/assets/3d17acab-9666-4039-9481-3d5c342f848f">
+<img width="334" alt="image" src="https://github.com/user-attachments/assets/88cae29d-7534-4193-aafc-d7fa13374394">
+<img width="338" alt="image" src="https://github.com/user-attachments/assets/c8f2aedd-a922-4a87-ad2f-0c23df4a4c53">
+
+
+
+
+
+
+
+
