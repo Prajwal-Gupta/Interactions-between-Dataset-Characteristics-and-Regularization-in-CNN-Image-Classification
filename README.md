@@ -1,5 +1,7 @@
 # Interactions-between-Dataset-Characteristics-and-Regularization-in-CNN-Image-Classification
 
+-- REPO UNDER CONSTRUCTION -- <br>
+<br>
 Regularization is essential to increasing the accuracy of convolutional neural networks and regularization methods are frequently employed in the task of image classification. <br>
 Our project aims to determine the effect of regularization methods Cutout, RandomErasing, Dropout, Max Dropout, and Label Smoothing on two datasets of varying spatial features, number of categories, as well as degrees of categorical distinction. <br>
 To do this we employed two CNN architectures: ResNet and AlexNet. The datasets we used were CIFAR-10 (low spatial features, multiclass classification, high categorical distinction), and CelebA (high spatial features, binary classification, low categorical distinction). Through methodical trials of each combination of regularization methods, CNN, and dataset, we identified RandomErasing and Label Smoothing as the best set of regularization methods for CIFAR-10 on ResNet CNN, with test accuracy of 87.22%, and RandomErasing alone as the best for CelebA with test accuracy of 97.46%. For AlexNet CNN, we identified Cutout as the best regularization methods for CIFAR-10, with test accuracy of 81.64%, and Cutout with RandomErasing as the best for CelebA with a test accuracy of 97.86%. <br>
