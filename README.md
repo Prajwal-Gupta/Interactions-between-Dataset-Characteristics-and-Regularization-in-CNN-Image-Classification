@@ -8,7 +8,6 @@ To do this we employed two CNN architectures: ResNet and AlexNet. The datasets w
 <br>
 
 ## Methods
-<br>
 ### Datasets
 After considering a number of datasets we ended up using two popular existing datasets: CIFAR-10 and CelebA. <br>
 CIFAR-10 is one of the most popular datasets used in multiclass image classification. It is a subset of the Tiny Images dataset with 60000 images for each of 10 classes. The classes in this dataset are highly distinct including various classes of vehicles and animals. The images are 32x32 and have relatively few spatial features. <br>
