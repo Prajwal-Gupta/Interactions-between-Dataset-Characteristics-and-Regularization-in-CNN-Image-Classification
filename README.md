@@ -3,13 +3,11 @@
 -- REPO UNDER CONSTRUCTION -- <br>
 <br>
 Regularization is essential to increasing the accuracy of convolutional neural networks and regularization methods are frequently employed in the task of image classification. <br>
-Our project aims to determine the effect of regularization methods Cutout, RandomErasing, Dropout, Max Dropout, and Label Smoothing on two datasets of varying spatial features, number of categories, as well as degrees of categorical distinction. <br>
+Our project aims to determine the effect of regularization methods Cutout, RandomErasing, Dropout, Max Dropout, and Label Smoothing on two datasets of varying spatial features, number of categories, and degrees of categorical distinction. <br>
 To do this we employed two CNN architectures: ResNet and AlexNet. The datasets we used were CIFAR-10 (low spatial features, multiclass classification, high categorical distinction), and CelebA (high spatial features, binary classification, low categorical distinction). Through methodical trials of each combination of regularization methods, CNN, and dataset, we identified RandomErasing and Label Smoothing as the best set of regularization methods for CIFAR-10 on ResNet CNN, with test accuracy of 87.22%, and RandomErasing alone as the best for CelebA with test accuracy of 97.46%. For AlexNet CNN, we identified Cutout as the best regularization methods for CIFAR-10, with test accuracy of 81.64%, and Cutout with RandomErasing as the best for CelebA with a test accuracy of 97.86%. <br>
 <br>
-Our research project delves into unraveling the intricacies of image content and classification categories under the influence of diverse regularization methods and CNN algorithms. Through this exploration, we aim to gain a nuanced understanding of how these factors interact and shape the outcomes in image processing. Our collective effort is to distinguish this research by focusing on the unique interplay between regularization techniques, CNN algorithms, and image content. By shedding light on these dynamics, we anticipate contributing valuable insights to refine and optimize CNN models, advancing the realm of computer vision and image classification. <br>
-<br>
+
 ## Methods
-In the design of our methods, we had three main considerations. First was the datasets to use. We wanted to find datasets with varying characteristics (level of categorical distinction, image complexity, and number of spatial features) as to clearly show the interaction between these characteristics and our regularization methods. Following from this, naturally, was to determine which regularization methods to include. We wanted to include regularization methods in each of the three main areas: data augmentation, internal structure changes, and label augmentation. Lastly, we wanted to run our experiments on multiple CNN architectures to account for model (non-data) related differences. <br>
 <br>
 ### Datasets
 After considering a number of datasets we ended up using two popular existing datasets: CIFAR-10 and CelebA. <br>
