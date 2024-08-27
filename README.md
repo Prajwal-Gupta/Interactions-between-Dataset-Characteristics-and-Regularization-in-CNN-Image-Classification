@@ -61,7 +61,7 @@ Now on CIFAR-10 we ran these following experiments with the following configurat
 
 <br>
 
-<img width="390" alt="image" src="https://github.com/user-attachments/assets/26c31560-f4a3-4af9-bb9f-98ddf974bd20">
+<img width="390" alt="image" src="https://github.com/user-attachments/assets/26c31560-f4a3-4af9-bb9f-98ddf974bd20"> 
 <img width="390" alt="image" src="https://github.com/user-attachments/assets/6a9c72f6-750a-49d5-b373-70bfd82bb394">
 
 <br>
@@ -79,7 +79,7 @@ Similarly these were the experiments run for the CelebA dataset
 
 <br>
 
-<img width="390" alt="image" src="https://github.com/user-attachments/assets/3d17acab-9666-4039-9481-3d5c342f848f">
+<img width="390" alt="image" src="https://github.com/user-attachments/assets/3d17acab-9666-4039-9481-3d5c342f848f"> 
 <img width="390" alt="image" src="https://github.com/user-attachments/assets/88cae29d-7534-4193-aafc-d7fa13374394">
 
 <br>
